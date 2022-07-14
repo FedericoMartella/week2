@@ -2,22 +2,22 @@
 
 int main(){
 
-float a;   //dichiarazione delle variabili
-float b;
+int  a;   //dichiarazione delle variabili
+int  b;
 float media;
 
 
 printf("Digita il primo  numero:\n"); //Comando per l'utente
 
-scanf ("%f",&a);
+scanf ("%d",&a);
 
 printf("Digita il secondo numero\n");
 
-scanf("%f",&b);
+scanf("%d",&b);
 
-media = (a+b)/2; //Media Artmetica 
+media = (float)(a+b)/2; //Media Artmetica 
 
 
-printf ("la media è: %f\n", media); //Stampa della media
+printf ("la media è: %g\n", media); //Stampa della media
 }
 
